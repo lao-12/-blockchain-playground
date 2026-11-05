@@ -1,0 +1,13 @@
+{
+  "name": "evm-new-token-watcher",
+  "version": "0.1.0",
+  "description": "Zero-dependency CLI that watches any EVM chain for new Uniswap-V2-style pairs (PairCreated) and optionally notifies Telegram.",
+  "main": "src/index.js",
+  "bin": { "evm-new-token-watcher": "src/index.js" },
+  "scripts": { "start": "node src/index.js", "bsc": "node src/index.js --preset bsc", "eth": "node src/index.js --preset eth" },
+  "engines": { "node": ">=18" },
+  "keywords": ["evm", "bsc", "ethereum", "base", "uniswap", "pancakeswap", "pair", "token", "watcher", "telegram"],
+  "author": "lao-12",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/lao-12/-blockchain-playground" }
+}
